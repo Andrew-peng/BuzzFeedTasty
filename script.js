@@ -15,7 +15,7 @@ $(window).scroll(function() {
 });
 function APIcall(pagenumber) {
   $.ajax({
-    url: "http://www.buzzfeed.com/api/v2/feeds/tasty?p=" + pagenumber + "&jsonp=callback",
+    url: "https://www.buzzfeed.com/api/v2/feeds/tasty?p=" + pagenumber + "&jsonp=callback",
     dataType: 'JSONP',
     jsonpCallback: 'callback',
     type: 'GET',
