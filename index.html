@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Infinite scrolling feed">
+    <meta name="author" content="Andrew Peng">
+    <link rel="stylesheet" href="style/solid.2.6.0.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" href="favicon-spoon.ico"/>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+    <script src = "script.js"></script>
+  </head>
+
+  <body>
+    <div id = "tastybg" class = "header">
+    </div>
+
+    <div class = "xs-p5 clearfix">
+      <div class = "xs-pb5 col xs-col-8 xs-offset-2">
+        <h1 class = "bold xs-text-center">Love tasty videos?</h1>
+        <p class = "xs-text-center">Check out these brand new tasty articles!</p>
+      </div>
+      <div class = "col xs-col-8 xs-offset-2">
+        <div id = "infinite-scroll" class = "xs-block-grid-3">
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Roboto', sans-serif;
+}
+#tastybg {
+  background-image: url('../../tasty-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.clickable-image {
+  opacity: 0.9;
+}
+.clickable-image:hover{
+  opacity: 1;
+  cursor: hand;
+  cursor: pointer;
+}
